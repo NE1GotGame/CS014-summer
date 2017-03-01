@@ -1,0 +1,32 @@
+digraph {
+	0 [label="Nile, distance = 2147483647"];
+	1 [label="Mondavi, distance = 2147483647"];
+	2 [label="Lodi, distance = 2147483647"];
+	3 [label="Rivoli, distance = 2147483647"];
+	4 [label="Pyramids, distance = 2147483647"];
+	5 [label="Zurich, distance = 2147483647"];
+	6 [label="Marengo, distance = 2147483647"];
+	7 [label="Friedland, distance = 2147483647"];
+
+0 -> 3
+0 -> 6
+1 -> 2
+1 -> 0
+1 -> 5
+1 -> 7
+2 -> 1
+2 -> 3
+2 -> 4
+3 -> 0
+4 -> 1
+4 -> 2
+4 -> 6
+5 -> 0
+5 -> 4
+5 -> 2
+6 -> 3
+7 -> 1
+7 -> 0
+7 -> 6
+
+}
